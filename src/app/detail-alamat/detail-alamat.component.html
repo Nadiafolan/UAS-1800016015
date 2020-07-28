@@ -1,0 +1,53 @@
+<h3 mat-dialog-title>Nadia Folandini</h3>
+<div mat-dialog-content>
+<mat-list>
+    <h3 matSubheader>Address Detail</h3>
+    <mat-list-item>
+        <mat-icon matListIcon>Call</mat-icon>
+        <h3 mat-line>082392983266</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>Email</mat-icon>
+        <h3 mat-line>folandininadia@gmail.com</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>Place</mat-icon>
+        <h3 mat-line>Jl. Patih Singoranu</h3>
+        <p mat-line>Kota Yogyakarta</p>
+        <p mat-line>Daerah Istimewa Yogyakarta</p>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+</mat-list>
+
+<h3 mat-dialog-title>{{data.nama}}</h3>
+<div mat-dialog-content>
+<mat-list>
+    <h3 matSubheader>Detail Address</h3>
+    <mat-list-item>
+        <mat-icon matListIcon>call</mat-icon>
+        <h3 mat-line>{{data.hp}}</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>email</mat-icon>
+        <h3 mat-line>{{data.email}}</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>place</mat-icon>
+        <h3 mat-line>{{data.addres}}</h3>
+        <p mat-line>{{data.city}}</p>
+        <p mat-line>{{data.province}}</p>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+</mat-list>
+
+</div>
+<mat-dialog-actions>
+    <span class="spacer"></span>
+    <button mat-button mat-dialog-close>Close</button>
+  </mat-dialog-actions>
+
+  
